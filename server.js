@@ -1,10 +1,10 @@
 require("dotenv").config();
 const express = require("express");
-const productRoutes = require("./src/routes/productRoutes");
-const userRoutes = require("./src/routes/userRoutes");
-const cartRoutes = require("./src/routes/cartRoutes");
-const categoryRoutes = require('./src/routes/categoryRouytes')
-const { connectDB } = require("./src/config/db");
+const productRoutes = require("./routes/productRoutes");
+const userRoutes = require("./routes/userRoutes");
+const cartRoutes = require("./routes/cartRoutes");
+const categoryRoutes = require('./routes/categoryRouytes')
+const { connectDB } = require("./config/db");
 const cors = require("cors");
 
 connectDB();

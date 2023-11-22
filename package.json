@@ -1,21 +1,21 @@
 {
-  "name": "jsom-e-com",
+  "name": "sprizone-public-backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "server.js",
     "dev": "nodemon server.js",
-    "data:import": "seederScript",
-    "build": "echo jsom-e-com"
+    "build": "react-scripts build",
+    "eject": "react-scripts sprizone-public-backend"
   },
   "keywords": [],
-  "author": "Mohit Sojitra",
+  "author": "Abhishek kumar",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.8"
