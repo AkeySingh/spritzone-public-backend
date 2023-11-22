@@ -15,8 +15,8 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  // res.json({ message: "API running..." });
-  res.send('hello world')
+  res.json({ message: "API running..." });
+  // res.send('hello world')
 });
 
 app.use("/api/products", productRoutes);
